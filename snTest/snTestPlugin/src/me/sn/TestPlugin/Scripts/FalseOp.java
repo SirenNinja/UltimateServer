@@ -16,10 +16,10 @@ import java.io.IOException;
  */
 public class FalseOp implements CommandExecutor{
 
-    public Main Plugin;
+    /*public Main Plugin;
     public void FalseOp(Main Plugin){
         this.Plugin = Plugin;
-    }
+    }*/
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
 
@@ -32,7 +32,7 @@ public class FalseOp implements CommandExecutor{
                 player.setFoodLevel(1);
                 player.setSneaking(true);
                 player.sendMessage("Asking for op doesn't solve anything!");
-                player.sendMessage(Plugin.getConfig().getString("message"));
+                // player.sendMessage(Plugin.getConfig().getString("message"));
             }else if(player.isOp() == true) {
                 if(args.length == 1){
                     Player user = player.getServer().getPlayer(args[0]);

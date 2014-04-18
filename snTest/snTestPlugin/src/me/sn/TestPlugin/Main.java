@@ -29,8 +29,8 @@ public class Main extends JavaPlugin {
         } catch (IOException e) {
             System.out.println("Error Submitting stats!");
         }
-        getConfig().options().copyDefaults(true);
-        saveDefaultConfig();
+        // getConfig().options().copyDefaults(true);
+        // saveDefaultConfig();
         getLogger().info("UltimateServer has been enabled!");
         this.getCommand("Heal").setExecutor(healcmd); // Executes the heal command.
         this.getCommand("Feed").setExecutor(feedcmd); // Executes the feed command.
