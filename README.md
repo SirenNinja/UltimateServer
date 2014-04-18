@@ -19,3 +19,6 @@ This plugin does contain:
 /UltimateServer | Just a help command.
 
 There will be soooo much more :D.
+
+
+Have any questions and/or problems, feel free to add me on Skype. exotic.timez
