@@ -1,0 +1,27 @@
+name: UltimateServer
+author: SirenNinja
+version: 1.0
+main: me.sn.TestPlugin.Main
+description: Test Plugin
+commands:
+  Heal:
+    usage: /<command>
+    description: Heals a player.
+  Feed:
+    usage: /<command>
+    description: Feeds a player.
+  Fly:
+    usage: /<command>
+    description: Flys.
+  us:
+    usage: /us
+    description: Help.
+  Banned:
+    usage: /banned
+    description: Banned.
+  UltimateServer:
+    usage: /ultimateserver
+    description: Help.
+  opus:
+    usage: /opus
+    description: Not gonna explain it.
